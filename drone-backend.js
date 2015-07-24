@@ -26,31 +26,31 @@ function fly(robot) {
     after(1*1000, function(){
         bot.drone.left(0.1);
     });
-    after(2*1000, function(){
+    after(2*1000, function(){ //this is too stop the drone moving before a further command is given
         bot.drone.right(0);
     });
     after(2*1000, function(){
         bot.drone.front(0.1);
     });
-    after(4*1000, function(){
+    after(4*1000, function(){//this is too stop the drone moving before a further command is given
         bot.drone.back(0);
     });
     after(4*1000, function(){
         bot.drone.right(0.1);
     });
-    after(6*1000, function(){
+    after(6*1000, function(){//this is too stop the drone moving before a further command is given
         bot.drone.left(0);
     });
     after(6*1000, function(){
         bot.drone.back(0.1);
     });
-    after(8*1000, function(){
+    after(8*1000, function(){//this is too stop the drone moving before a further command is given
         bot.drone.forward(0);
     });
     after(8*1000, function(){
         bot.drone.left(0.1);
     });
-    after(9*1000, function(){
+    after(9*1000, function(){//this is too stop the drone moving before a further command is given
         bot.drone.right(0);
     });
     after(9*1000, function(){
