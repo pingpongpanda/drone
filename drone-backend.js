@@ -61,7 +61,7 @@ function fly(robot) {
     after(38*1000, function(){
         bot.drone.down(0.1);
     });
-    after(45*1000, function(){
+    after(46*1000, function(){
         bot.drone.land();
     });
 }
