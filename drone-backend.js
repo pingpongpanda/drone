@@ -23,27 +23,43 @@ function fly(robot) {
     after(0*1000, function(){
         bot.drone.up(0.1);
     });
-    after(0.5*1000, function(){
+    after(1*1000, function(){
         bot.drone.left(0.1);
     });
-    after(0.3*1000, function(){
+    after(2*1000, function(){
+        bot.drone.right(0);
+    });
+    after(2*1000, function(){
         bot.drone.front(0.1);
     });
-    after(0.6*1000, function(){
+    after(4*1000, function(){
+        bot.drone.back(0);
+    });
+    after(4*1000, function(){
         bot.drone.right(0.1);
-    })
-    after(0.6*1000, function(){
+    });
+    after(6*1000, function(){
+        bot.drone.left(0);
+    });
+    after(6*1000, function(){
         bot.drone.back(0.1);
     });
-    after(0.6*1000, function(){
+    after(8*1000, function(){
+        bot.drone.forward(0);
+    });
+    after(8*1000, function(){
         bot.drone.left(0.1);
-    })
-    after(0.3*1000, function(){
+    });
+    after(9*1000, function(){
+        bot.drone.right(0);
+    });
+    after(9*1000, function(){
         bot.drone.down(0.1);
-    })
-    after(0.55*1000, function(){
-        bot.drone.stop();
+    });
+    after(10*1000, function(){
+        bot.drone.land();
     });
 }
 
 Cylon.start();
+
